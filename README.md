@@ -2,13 +2,13 @@
 
 ## What's included:
 
-### A quick summary of who I am as a developer.
+- A quick summary of who I am as a developer.
 
-### A list of projects I am proud of and excited for you to see.
+- A list of projects I am proud of and excited for you to see.
 
-### My hard and soft skills.
+- My hard and soft skills.
 
-### A way to get in touch with me.
+- A way to get in touch with me.
 
 ## Message from me:
 
