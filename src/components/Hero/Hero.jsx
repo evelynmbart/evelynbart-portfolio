@@ -1,6 +1,8 @@
+import { useTheme } from "../../utils/ThemeContext";
 import "./Hero.css";
 
 export function Hero() {
+  const { theme, toggleTheme } = useTheme();
   return (
     <section id="hero" className="hero-container">
       <div className="hero-color-mode">
@@ -13,6 +15,7 @@ export function Hero() {
           className="colorMode"
           src="/src/assets/moon.png"
           alt="Color mode icon"
+          onClick={toggleTheme}
         />
       </div>
       <div className="hero-info">
