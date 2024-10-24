@@ -1,8 +1,19 @@
 import { useTheme } from "../../utils/ThemeContext";
 import "./Hero.css";
+import moon from "../../assets/moon.png";
+import sun from "../../assets/sun.png";
+import githubLight from "../../assets/github-light.png";
+import linkedinLight from "../../assets/linkedin-light.png";
+import githubDark from "../../assets/github-dark.png";
+import linkedinDark from "../../assets/linkedin-dark.png";
 
 export function Hero() {
   const { theme, toggleTheme } = useTheme();
+
+  const themeIcon = theme === "light" ? moon : sun;
+  const githubIcon = theme === "light" ? githubLight : githubDark;
+  const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
+
   return (
     <section id="hero" className="hero-container">
       <div className="hero-color-mode">
@@ -13,7 +24,7 @@ export function Hero() {
         />
         <img
           className="colorMode"
-          src="/src/assets/moon.png"
+          src={themeIcon}
           alt="Color mode icon"
           onClick={toggleTheme}
         />
@@ -26,10 +37,10 @@ export function Hero() {
         <h2>Frontend Developer</h2>
         <span>
           <a href="https://github.com/evelynmbart" target="blank">
-            <img src="/src/assets/github-dark.png" alt="github logo" />
+            <img src={githubIcon} alt="github logo" />
           </a>
           <a href="www.linkedin.com/in/evelyn-bart-a469a4288" target="blank">
-            <img src="/src/assets/linkedin-dark.png" alt="linkedin logo" />
+            <img src={linkedinIcon} alt="linkedin logo" />
           </a>
         </span>
         <p>
