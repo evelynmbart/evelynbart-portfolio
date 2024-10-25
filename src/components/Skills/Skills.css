@@ -1,0 +1,7 @@
+.skills-container {
+  display: flex;
+
+  p {
+    text-transform: uppercase;
+  }
+}
