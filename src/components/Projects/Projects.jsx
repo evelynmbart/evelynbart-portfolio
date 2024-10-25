@@ -26,13 +26,15 @@ const PROJECTS = [
   },
 ];
 
+// FIX ME: add link to projects (to their websites which will have a link to the github)
+
 export function Projects() {
-  const [projects, setProjects] = useState(PROJECTS);
+  //   const [projects, setProjects] = useState(PROJECTS);
   return (
     <section id="projects" className="projects-container">
       <h1 className="sectionTitle">Projects</h1>
       <div className="projects-content">
-        {projects.map((project, index) => {
+        {PROJECTS.map((project, index) => {
           return <ProjectCard key={index} project={project} />;
         })}
       </div>
