@@ -2,6 +2,7 @@ import "./Skills.css";
 import checkMarkDark from "../../assets/check-dark.png";
 import checkMarkLight from "../../assets/check-light.png";
 import { SkillList } from "../../utils/SkillList";
+import { useTheme } from "../../utils/ThemeContext";
 
 const SKILLS_1 = [
   {
@@ -58,24 +59,27 @@ const SKILLS_3 = [
 ];
 
 export function Skills() {
+  const { theme } = useTheme();
+  const checkMark = theme === "light" ? checkMarkLight : checkMarkDark;
+
   return (
     <section className="skills-container" id="skills">
       <h1 className="sectionTitle">Skills</h1>
       <div className="skills-list">
         {SKILLS_1.map((skill, index) => (
-          <SkillList key={index} skill={skill} />
+          <SkillList key={index} skill={skill} checkMark={checkMark} />
         ))}
       </div>
       <hr />
       <div className="skills-list">
         {SKILLS_2.map((skill, index) => (
-          <SkillList key={index} skill={skill} />
+          <SkillList key={index} skill={skill} checkMark={checkMark} />
         ))}
       </div>
       <hr />
       <div className="skills-list">
         {SKILLS_3.map((skill, index) => (
-          <SkillList key={index} skill={skill} />
+          <SkillList key={index} skill={skill} checkMark={checkMark} />
         ))}
       </div>
       <hr />

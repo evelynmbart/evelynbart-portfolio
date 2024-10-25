@@ -1,4 +1,4 @@
-export function ProjectCard({ project, key }) {
+export function ProjectCard({ project }) {
   return (
     <a target="blank">
       <img className="hover" src={project.src} alt={project.title} />
