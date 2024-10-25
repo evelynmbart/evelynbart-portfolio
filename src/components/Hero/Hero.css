@@ -75,3 +75,25 @@
   justify-content: center;
   gap: 20px;
 }
+
+@media (width >= 800px) {
+  .hero-container {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .avatar {
+      max-width: 350px;
+      width: 350px;
+    }
+  }
+}
+
+@media (width >= 1400px) {
+  .hero-container {
+    .avatar {
+      max-width: 400px;
+      width: 400px;
+    }
+  }
+}

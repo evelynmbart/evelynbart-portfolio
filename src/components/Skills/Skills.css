@@ -33,3 +33,18 @@ hr {
   background-color: var(--text-color);
   margin: 30px auto;
 }
+
+@media (width >= 800px) {
+  .skills-list {
+    max-width: fit-content;
+    gap: 30px;
+
+    p {
+      font-size: 20px;
+    }
+  }
+
+  hr {
+    width: 300px;
+  }
+}

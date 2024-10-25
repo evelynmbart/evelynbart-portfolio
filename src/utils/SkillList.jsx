@@ -1,7 +1,7 @@
-export function SkillList({ skill }) {
+export function SkillList({ skill, checkMark }) {
   return (
     <span>
-      <img src={skill.src} alt="Checkmark icon" />
+      <img src={checkMark} alt="Checkmark icon" />
       <p>{skill.skill}</p>
     </span>
   );
