@@ -39,11 +39,14 @@ export function Hero() {
           <a href="https://github.com/evelynmbart" target="blank">
             <img src={githubIcon} alt="github logo" />
           </a>
-          <a href="www.linkedin.com/in/evelyn-bart-a469a4288" target="blank">
+          <a
+            href="https://www.linkedin.com/in/evelyn-bart-a469a4288/"
+            target="blank"
+          >
             <img src={linkedinIcon} alt="linkedin logo" />
           </a>
         </span>
-        <p>
+        <p className="description">
           With a passion for developing modern React web apps for commercial
           businesses.
         </p>
