@@ -22,7 +22,7 @@ body {
   background-color: var(--background-color);
   display: flex;
   justify-content: center;
-  margin: 0 auto 60px;
+  /* margin: 0 auto 60px; */
 }
 
 #root {
@@ -36,4 +36,37 @@ h2,
 h3,
 p {
   color: var(--text-color);
+}
+
+h2,
+h3,
+p {
+  font-family: "Roboto Mono", monospace;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+h2,
+h3 {
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 32px;
+}
+p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.sectionTitle {
+  margin-bottom: 30px;
+}
+
+.sectionTitle:hover {
+  cursor: pointer;
 }
