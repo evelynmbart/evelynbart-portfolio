@@ -19,7 +19,7 @@ export function Hero() {
       <div className="hero-color-mode">
         <img
           className="avatar"
-          src="/src/assets/avatar.png"
+          src="/src/assets/avatar02.png"
           alt="profile avatar of Evelyn Bart"
         />
         <img
