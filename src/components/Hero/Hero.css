@@ -4,15 +4,15 @@
   justify-content: center;
   gap: 20px;
   text-align: center;
-  height: 60dvh;
+  height: 70dvh;
   min-height: 500px;
   margin: 0 3%;
-  padding: 1%;
+  padding: 2%;
   border-radius: 20px;
   background-color: var(--btn-color);
 
   .avatar {
-    width: 350px;
+    width: 150px;
     object-fit: contain;
   }
 
@@ -40,7 +40,8 @@
     color: var(--btn-color);
     border: none;
     border-radius: 20px;
-    width: 126px;
+    width: 100%;
+    padding: 15px;
     height: 50px;
     font-size: 20px;
     font-weight: bold;
@@ -70,7 +71,7 @@
 }
 
 .description {
-  max-width: 45ch;
+  max-width: 35ch;
   align-self: center;
 }
 
@@ -82,7 +83,7 @@
 }
 
 .hero-info h1 {
-  font-size: 55px;
+  font-size: 30px;
 }
 
 @media (width >= 800px) {
@@ -90,6 +91,14 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-evenly;
+  }
+
+  .description {
+    max-width: 45ch;
+  }
+
+  .hero-info h1 {
+    font-size: 55px;
   }
 }
 
