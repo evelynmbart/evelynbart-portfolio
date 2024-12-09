@@ -1,11 +1,11 @@
-import { useTheme } from "../../utils/ThemeContext";
-import "./Hero.css";
+import githubDark from "../../assets/github-dark.png";
+import githubLight from "../../assets/github-light.png";
+import linkedinDark from "../../assets/linkedin-dark.png";
+import linkedinLight from "../../assets/linkedin-light.png";
 import moon from "../../assets/moon.png";
 import sun from "../../assets/sun.png";
-import githubLight from "../../assets/github-light.png";
-import linkedinLight from "../../assets/linkedin-light.png";
-import githubDark from "../../assets/github-dark.png";
-import linkedinDark from "../../assets/linkedin-dark.png";
+import { useTheme } from "../../utils/ThemeContext";
+import "./Hero.css";
 
 export function Hero() {
   const { theme, toggleTheme } = useTheme();
@@ -44,8 +44,10 @@ export function Hero() {
           </a>
         </span>
         <p className="description">
-          With a passion for developing intentional and memorable React web
-          apps.
+          New to the game but hungry for impactful opportunities. What I lack in
+          professional tech experience I make up for in curiosity, adaptability,
+          and determination, with a passion for developing intentional and
+          memorable React web apps.
         </p>
         <a href="/src/assets/Evelyn Bart 2024 Resume copy.pdf" download>
           <button className="hover">Resume</button>

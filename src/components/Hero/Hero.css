@@ -4,8 +4,12 @@
   justify-content: center;
   gap: 20px;
   text-align: center;
-  height: 70dvh;
+  height: 60dvh;
   min-height: 500px;
+  margin: 0 3%;
+  padding: 1%;
+  border-radius: 20px;
+  background-color: var(--btn-color);
 
   .avatar {
     width: 350px;
@@ -32,8 +36,8 @@
   }
 
   button {
-    background-color: var(--btn-color);
-    color: var(--btn-text-color);
+    background-color: var(--btn-text-color);
+    color: var(--btn-color);
     border: none;
     border-radius: 20px;
     width: 126px;
@@ -66,7 +70,7 @@
 }
 
 .description {
-  max-width: 24ch;
+  max-width: 45ch;
   align-self: center;
 }
 

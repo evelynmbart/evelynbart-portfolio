@@ -13,7 +13,7 @@ export function Contact() {
             type="text"
             name="name"
             id="name"
-            placeholder="John"
+            placeholder="Your name"
             required
           />
           <label htmlFor="email" hidden>
@@ -23,7 +23,7 @@ export function Contact() {
             type="text"
             name="email"
             id="email"
-            placeholder="john@john.com"
+            placeholder="Your email"
             required
           />
           <label htmlFor="message" hidden>
@@ -32,7 +32,7 @@ export function Contact() {
           <textarea
             name="message"
             id="message"
-            placeholder="Message"
+            placeholder="Your message..."
             required
           />
           <input className="hover btn" type="submit" value="Submit" />
