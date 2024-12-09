@@ -4,7 +4,6 @@
   justify-content: center;
   gap: 20px;
   text-align: center;
-  height: 70dvh;
   min-height: 500px;
   margin: 0 3%;
   padding: 2.5%;
@@ -12,7 +11,7 @@
   background-color: var(--btn-color);
 
   .avatar {
-    width: 150px;
+    width: 100%;
     object-fit: contain;
   }
 
@@ -66,6 +65,7 @@
 
 .hero-color-mode {
   position: relative;
+  padding: 20px;
 }
 
 .colorMode {
@@ -73,6 +73,7 @@
   cursor: pointer;
   width: 25px;
   height: 25px;
+  display: none;
 }
 
 .description {
@@ -91,11 +92,14 @@
   font-size: 30px;
 }
 
-@media (width >= 800px) {
+@media (width >= 900px) {
   .hero-container {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-evenly;
+  }
+  .colorMode {
+    display: inline;
   }
 
   .description {

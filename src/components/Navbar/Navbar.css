@@ -26,8 +26,22 @@ h3 {
   text-transform: uppercase;
 }
 
+.nav-color-mode {
+  position: relative;
+}
+
+.nav-colorMode {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+
 @media (width >= 900px) {
   .links {
     display: flex;
+  }
+
+  .nav-color-mode {
+    display: none;
   }
 }
