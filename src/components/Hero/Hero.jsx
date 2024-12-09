@@ -30,10 +30,7 @@ export function Hero() {
         />
       </div>
       <div className="hero-info">
-        <h1>
-          Evelyn <br />
-          Bart
-        </h1>
+        <h1>Evelyn Bart</h1>
         <h2>Frontend Developer</h2>
         <span>
           <a href="https://github.com/evelynmbart" target="blank">
@@ -47,8 +44,8 @@ export function Hero() {
           </a>
         </span>
         <p className="description">
-          With a passion for developing modern React web apps for commercial
-          businesses.
+          With a passion for developing intentional and memorable React web
+          apps.
         </p>
         <a href="/src/assets/Evelyn Bart 2024 Resume copy.pdf" download>
           <button className="hover">Resume</button>
