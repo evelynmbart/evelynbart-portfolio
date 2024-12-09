@@ -21,7 +21,13 @@ h3 {
 }
 
 .links {
-  display: flex;
+  display: none;
   gap: 50px;
   text-transform: uppercase;
+}
+
+@media (width >= 900px) {
+  .links {
+    display: flex;
+  }
 }
