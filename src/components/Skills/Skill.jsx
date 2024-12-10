@@ -6,54 +6,69 @@ import "./Skills.css";
 
 const SKILLS_1 = [
   {
-    skill: "html",
+    skill: "React.js",
     src: checkMarkDark,
   },
   {
-    skill: "css",
+    skill: "Javascript",
     src: checkMarkDark,
   },
 
-  {
-    skill: "javascript",
-    src: checkMarkDark,
-  },
   {
     skill: "Typescript",
     src: checkMarkDark,
   },
   {
-    skill: "node",
+    skill: "Node.js",
     src: checkMarkDark,
   },
 ];
 
 const SKILLS_2 = [
   {
-    skill: "react.js",
+    skill: "HTML",
     src: checkMarkDark,
   },
   {
-    skill: "git",
+    skill: "css",
     src: checkMarkDark,
   },
   {
-    skill: "postSQL",
+    skill: "Tailwind css",
     src: checkMarkDark,
   },
 ];
 
 const SKILLS_3 = [
   {
-    skill: "tailwind css",
+    skill: "Git",
     src: checkMarkDark,
   },
   {
-    skill: "figma",
+    skill: "Postsql",
     src: checkMarkDark,
   },
   {
     skill: "UNIX command line",
+    src: checkMarkDark,
+  },
+];
+const SKILLS_4 = [
+  {
+    skill: "Team player",
+    src: checkMarkDark,
+  },
+  {
+    skill: "Reliable",
+    src: checkMarkDark,
+  },
+
+  {
+    skill: "Curious",
+    src: checkMarkDark,
+  },
+  {
+    skill: "adaptable",
     src: checkMarkDark,
   },
 ];
@@ -83,6 +98,11 @@ export function Skills() {
         ))}
       </div>
       <hr />
+      <div className="skills-list">
+        {SKILLS_4.map((skill, index) => (
+          <SkillList key={index} skill={skill} checkMark={checkMark} />
+        ))}
+      </div>
     </section>
   );
 }
