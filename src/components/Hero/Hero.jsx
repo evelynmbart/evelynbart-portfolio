@@ -49,7 +49,7 @@ export function Hero() {
           and determination, with a passion for developing intentional and
           memorable React web apps.
         </p>
-        <a href="/src/assets/Evelyn Bart 2024 Resume copy.pdf" download>
+        <a href="/src/assets/Evelyn Bart 2024 Resume.pdf" download>
           <button className="hover">Resume</button>
         </a>
       </div>
