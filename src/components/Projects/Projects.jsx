@@ -5,10 +5,10 @@ import "./Projects.css";
 const PROJECTS = [
   {
     title: "Wishlist",
-    src: { wishlist },
+    src: wishlist,
     link: "https://github.com/evelynmbart/mappi",
     description:
-      "Use Mappi to locate your wishlist items and find the perfect neighborhood for you and your lifestyle.",
+      "Use Wishlist to locate your must-have items and find the perfect neighborhood for you and your lifestyle.",
   },
   {
     title: "Gridddle",
@@ -92,7 +92,6 @@ const PROJECTS = [
 // FIX ME: add link to projects (to their websites which will have a link to the github)
 
 export function Projects() {
-  //   const [projects, setProjects] = useState(PROJECTS);
   return (
     <section id="projects" className="projects-container">
       <h1 className="sectionTitle">Projects</h1>
