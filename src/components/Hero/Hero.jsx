@@ -1,3 +1,4 @@
+import avatar from "../../../public/assets/avatar02.png";
 import githubDark from "../../../public/assets/github-dark.png";
 import githubLight from "../../../public/assets/github-light.png";
 import linkedinDark from "../../../public/assets/linkedin-dark.png";
@@ -20,7 +21,7 @@ export function Hero() {
       <div className="hero-color-mode">
         <img
           className="avatar"
-          src="/public/assets/avatar02.png"
+          src={avatar}
           alt="profile avatar of Evelyn Bart"
         />
         <img
@@ -50,7 +51,7 @@ export function Hero() {
           and determination, with a passion for developing intentional and
           memorable React web apps.
         </p>
-        <a href="/src/assets/Evelyn Bart 2024 Resume.pdf" download>
+        <a href="/src/assets/evelyn-bart-2024-resume.pdf" download>
           <button className="hover">Resume</button>
         </a>
       </div>
