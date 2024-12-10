@@ -1,4 +1,14 @@
+import blog from "../../../public/assets/project-images/blogwoohoo.png";
+import budget from "../../../public/assets/project-images/budget-app.png";
+import farkle from "../../../public/assets/project-images/farkle.png";
+import gridddle from "../../../public/assets/project-images/gridddle.png";
+import memory from "../../../public/assets/project-images/hole-in-one.png";
+import jaipur from "../../../public/assets/project-images/jaipur.png";
 import wishlist from "../../../public/assets/project-images/mappi.png";
+import pomodoro from "../../../public/assets/project-images/pomodoro.png";
+import pupProgress from "../../../public/assets/project-images/pup-progressx.png";
+import tileSlider from "../../../public/assets/project-images/tile-slider.png";
+
 import { ProjectCard } from "../../utils/ProjectCard";
 import "./Projects.css";
 
@@ -12,7 +22,7 @@ const PROJECTS = [
   },
   {
     title: "Gridddle",
-    src: "../public/assets/project-images/gridddle.png",
+    src: gridddle,
     link: "https://gridddle.vercel.app/",
     description:
       "A pixel art themed daily art challenge, with new prompts daily and history of past submissions.",
@@ -26,64 +36,64 @@ const PROJECTS = [
   },
   {
     title: "Blog Woohoo!",
-    src: "../public/assets/project-images/blogwoohoo.png",
+    src: blog,
     link: "https://evelynmbart.github.io/Blog/",
     description:
       "My first version (HTML) blog following my progression as a frontend web-developer",
   },
   {
     title: "Budgeting App",
-    src: "../public/assets/project-images/budget-app.png",
+    src: budget,
     link: "https://budget-app-pi-lemon.vercel.app/",
     description:
       "Keep track of your budgets with this easy to use, dynamic expense tracker.",
   },
   {
     title: "Tile Slider",
-    src: "../public/assets/project-images/tile-slider.png",
+    src: tileSlider,
     link: "https://tile-slider.vercel.app/",
     description:
       "Slide the tiles and find their numerical home. Once all are in ascending order you win!",
   },
   {
     title: "Jaipur Score Keeper",
-    src: "../public/assets/project-images/jaipur.png",
+    src: jaipur,
     link: "https://jaipur-score.vercel.app/",
     description: "Track your Jaipur score easier than ever with this web app.",
   },
   {
     title: "Farkle",
-    src: "../public/assets/project-images/farkle.png",
+    src: farkle,
     link: "https://farkle-nine.vercel.app/",
     description: "Web app farkle.",
   },
   {
     title: "Recipe Finder",
-    src: "../public/assets/project-images/recipes-app.png",
+    src: recipes,
     link: "https://recipe-app-seven-navy.vercel.app/",
     description: "Search for all types of recipes with this recipe finder app.",
   },
   {
     title: "Hole-in-One Memory Game",
-    src: "../public/assets/project-images/hole-in-one.png",
+    src: memory,
     link: "https://memory-game-beryl-tau.vercel.app/",
     description: "Dynamic donut themed memory card game.",
   },
   {
     title: "Hangman",
-    src: "../public/assets/project-images/hangman.png",
+    src: hangman,
     link: "https://hangman-one-fawn.vercel.app/",
     description: "Web app hangman game.",
   },
   {
     title: "Pomodoro",
-    src: "../public/assets/project-images/pomodoro.png",
+    src: pomodoro,
     link: "https://pomodoro-chi-beryl.vercel.app/",
     description: "Tomato themed pomodoro studying timer and todo list.",
   },
   {
     title: "Pup Progress",
-    src: "../public/assets/project-images/pup-progress.png",
+    src: pupProgress,
     link: "https://pup-progress.vercel.app/",
     description: "Chapter/freestyle based dog training app home page.",
   },
