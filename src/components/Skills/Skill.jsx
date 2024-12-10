@@ -1,8 +1,8 @@
-import "./Skills.css";
-import checkMarkDark from "../../assets/check-dark.png";
-import checkMarkLight from "../../assets/check-light.png";
+import checkMarkDark from "../../../public/assets/check-dark.png";
+import checkMarkLight from "../../../public/assets/check-light.png";
 import { SkillList } from "../../utils/SkillList";
 import { useTheme } from "../../utils/ThemeContext";
+import "./Skills.css";
 
 const SKILLS_1 = [
   {

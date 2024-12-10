@@ -1,9 +1,9 @@
-import githubDark from "../../assets/github-dark.png";
-import githubLight from "../../assets/github-light.png";
-import linkedinDark from "../../assets/linkedin-dark.png";
-import linkedinLight from "../../assets/linkedin-light.png";
-import moon from "../../assets/moon.png";
-import sun from "../../assets/sun.png";
+import githubDark from "../../../public/assets/github-dark.png";
+import githubLight from "../../../public/assets/github-light.png";
+import linkedinDark from "../../../public/assets/linkedin-dark.png";
+import linkedinLight from "../../../public/assets/linkedin-light.png";
+import moon from "../../../public/assets/moon.png";
+import sun from "../../../public/assets/sun.png";
 import { useTheme } from "../../utils/ThemeContext";
 import "./Hero.css";
 
@@ -20,7 +20,7 @@ export function Hero() {
       <div className="hero-color-mode">
         <img
           className="avatar"
-          src="/src/assets/avatar02.png"
+          src="/public/assets/avatar02.png"
           alt="profile avatar of Evelyn Bart"
         />
         <img

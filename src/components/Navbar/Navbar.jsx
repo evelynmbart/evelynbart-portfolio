@@ -1,5 +1,5 @@
-import moon from "../../assets/moon.png";
-import sun from "../../assets/sun.png";
+import moon from "../../../public/assets/moon.png";
+import sun from "../../../public/assets/sun.png";
 import { useTheme } from "../../utils/ThemeContext";
 import "./Navbar.css";
 
