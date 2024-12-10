@@ -1,10 +1,11 @@
+import wishlist from "../../../public/assets/project-images/mappi.png";
 import { ProjectCard } from "../../utils/ProjectCard";
 import "./Projects.css";
 
 const PROJECTS = [
   {
-    title: "Mappi",
-    src: "../public/assets/project-images/mappi.png",
+    title: "Wishlist",
+    src: { wishlist },
     link: "https://github.com/evelynmbart/mappi",
     description:
       "Use Mappi to locate your wishlist items and find the perfect neighborhood for you and your lifestyle.",
