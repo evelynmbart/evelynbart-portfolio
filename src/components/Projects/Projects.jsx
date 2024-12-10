@@ -29,13 +29,13 @@ const PROJECTS = [
     description:
       "A pixel art themed daily art challenge, with new prompts daily and history of past submissions.",
   },
-  {
-    title: "ithasbeendays",
-    src: "../public/assets/project-images/ithasbeendays.png",
-    link: "https://github.com/evelynmbart/ithasbeendays",
-    description:
-      "A habit/achievement tracker, tracking how many days since your last input/update.",
-  },
+  // {
+  //   title: "ithasbeendays",
+  //   src: "../public/assets/project-images/ithasbeendays.png",
+  //   link: "https://github.com/evelynmbart/ithasbeendays",
+  //   description:
+  //     "A habit/achievement tracker, tracking how many days since your last input/update.",
+  // },
   {
     title: "Blog Woohoo!",
     src: blog,
