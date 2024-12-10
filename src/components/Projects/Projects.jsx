@@ -8,6 +8,7 @@ import jaipur from "../../../public/assets/project-images/jaipur.png";
 import wishlist from "../../../public/assets/project-images/mappi.png";
 import pomodoro from "../../../public/assets/project-images/pomodoro.png";
 import pupProgress from "../../../public/assets/project-images/pup-progressx.png";
+import recipes from "../../../public/assets/project-images/recipes-app.png";
 import tileSlider from "../../../public/assets/project-images/tile-slider.png";
 
 import { ProjectCard } from "../../utils/ProjectCard";
