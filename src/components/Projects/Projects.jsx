@@ -46,7 +46,7 @@ const PROJECTS = [
   },
   {
     title: "Jaipur Score Keeper",
-    src: "../src/assets/project-images/jairpur.png",
+    src: "../src/assets/project-images/jaipur.png",
     link: "https://github.com/evelynmbart/jaipur-score",
     description: "Track your Jaipur score easier than ever with this web app.",
   },
