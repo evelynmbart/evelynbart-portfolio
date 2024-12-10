@@ -16,6 +16,7 @@ export function Hero() {
 
   return (
     <section id="hero" className="hero-container">
+      {/* <img src="/src/assets/bubble.png" /> */}
       <div className="hero-color-mode">
         <img
           className="avatar"
