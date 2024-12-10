@@ -2,6 +2,7 @@ import blog from "../../../public/assets/project-images/blogwoohoo.png";
 import budget from "../../../public/assets/project-images/budget-app.png";
 import farkle from "../../../public/assets/project-images/farkle.png";
 import gridddle from "../../../public/assets/project-images/gridddle.png";
+import hangman from "../../../public/assets/project-images/hangman.png";
 import memory from "../../../public/assets/project-images/hole-in-one.png";
 import jaipur from "../../../public/assets/project-images/jaipur.png";
 import wishlist from "../../../public/assets/project-images/mappi.png";
