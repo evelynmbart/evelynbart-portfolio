@@ -4,7 +4,7 @@
   flex-direction: column;
   margin: 0 3%;
   border-radius: 20px;
-  padding: 2%;
+  padding: 10% 2.5%;
   box-shadow: 2px 2px 10px var(--shadow-color);
 
   text-align: center;
