@@ -66,7 +66,7 @@ const PROJECTS = [
   {
     title: "Farkle",
     src: farkle,
-    link: "https://farkle-nine.vercel.app/",
+    link: "http://farkle.levelynup.com/",
     description: "Web app farkle.",
   },
   {
