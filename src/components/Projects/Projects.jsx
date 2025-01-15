@@ -46,21 +46,21 @@ const PROJECTS = [
   {
     title: "Budgeting App",
     src: budget,
-    link: "https://budget-app-pi-lemon.vercel.app/",
+    link: "https://personal-budgeting.levelynup.com/",
     description:
       "Keep track of your budgets with this easy to use, dynamic expense tracker.",
   },
   {
     title: "Tile Slider",
     src: tileSlider,
-    link: "https://tile-slider.vercel.app/",
+    link: "https://tile-sliders.levelynup.com/",
     description:
       "Slide the tiles and find their numerical home. Once all are in ascending order you win!",
   },
   {
     title: "Jaipur Score Keeper",
     src: jaipur,
-    link: "https://jaipur-score.vercel.app/",
+    link: "https://jaipur-score.levelynup.com/",
     description: "Track your Jaipur score easier than ever with this web app.",
   },
   {
@@ -72,31 +72,31 @@ const PROJECTS = [
   {
     title: "Recipe Finder",
     src: recipes,
-    link: "https://recipe-app-seven-navy.vercel.app/",
+    link: "https://recipe-lookups.levelynup.com/",
     description: "Search for all types of recipes with this recipe finder app.",
   },
   {
     title: "Hole-in-One Memory Game",
     src: memory,
-    link: "https://memory-game-beryl-tau.vercel.app/",
+    link: "https://holeinone.levelynup.com/",
     description: "Dynamic donut themed memory card game.",
   },
   {
     title: "Hangman",
     src: hangman,
-    link: "https://hangman-one-fawn.vercel.app/",
+    link: "https://hangman.levelynup.com/",
     description: "Web app hangman game.",
   },
   {
     title: "Pomodoro",
     src: pomodoro,
-    link: "https://pomodoro-chi-beryl.vercel.app/",
+    link: "https://pomodoro.levelynup.com/",
     description: "Tomato themed pomodoro studying timer and todo list.",
   },
   {
     title: "Pup Progress",
     src: pupProgress,
-    link: "https://pup-progress.vercel.app/",
+    link: "https://pup-progress.levelynup.com/",
     description: "Chapter/freestyle based dog training app home page.",
   },
 ];
