@@ -12,7 +12,6 @@ export function Navbar() {
     <div className="navbar-container" id="navbar">
       <h3>Welcome to my Web Dev Porfolio!</h3>
       <div className="links">
-        <a href="#now">Up to now</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact"> Contact</a>
