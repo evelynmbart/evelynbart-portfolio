@@ -18,7 +18,7 @@ const PROJECTS = [
   {
     title: "Mappi",
     src: mappi,
-    link: "https://github.com/evelynmbart/mappi",
+    link: "https://mappi-nyc.vercel.app/",
     description:
       "Use Mappi to locate your must-have items and find the perfect neighborhood for you and your lifestyle.",
   },
