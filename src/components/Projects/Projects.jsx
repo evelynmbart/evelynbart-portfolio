@@ -5,7 +5,7 @@ import gridddle from "../../../public/assets/project-images/gridddle.png";
 import hangman from "../../../public/assets/project-images/hangman.png";
 import memory from "../../../public/assets/project-images/hole-in-one.png";
 import jaipur from "../../../public/assets/project-images/jaipur.png";
-import wishlist from "../../../public/assets/project-images/mappi.png";
+import mappi from "../../../public/assets/project-images/mappi.png";
 import pomodoro from "../../../public/assets/project-images/pomodoro.png";
 import pupProgress from "../../../public/assets/project-images/pup-progress.png";
 import recipes from "../../../public/assets/project-images/recipes-app.png";
@@ -16,11 +16,11 @@ import "./Projects.css";
 
 const PROJECTS = [
   {
-    title: "Wishlist",
-    src: wishlist,
+    title: "Mappi",
+    src: mappi,
     link: "https://github.com/evelynmbart/mappi",
     description:
-      "Use Wishlist to locate your must-have items and find the perfect neighborhood for you and your lifestyle.",
+      "Use Mappi to locate your must-have items and find the perfect neighborhood for you and your lifestyle.",
   },
   {
     title: "Gridddle",
