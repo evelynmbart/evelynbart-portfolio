@@ -41,15 +41,15 @@ const SKILLS_2 = [
 
 const SKILLS_3 = [
   {
-    skill: "Git",
+    skill: "Git/Github",
     src: checkMarkDark,
   },
   {
-    skill: "Postsql",
+    skill: "PostgreSQL",
     src: checkMarkDark,
   },
   {
-    skill: "UNIX command line",
+    skill: "Unix command line",
     src: checkMarkDark,
   },
 ];

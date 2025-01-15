@@ -46,10 +46,10 @@ export function Hero() {
           </a>
         </span>
         <p className="description">
-          New to the game but hungry for impactful opportunities. What I lack in
-          professional tech experience I make up for in curiosity, adaptability,
-          and determination, with a passion for developing intentional and
-          memorable React web apps.
+          New to the game and hungry for impactful opportunities. I'm fully
+          self-taught and make up for my limited experience with curiosity,
+          adaptability, and determination. I have a passion for developing
+          intentional and memorable React web apps. Let&apos;s work together!
         </p>
         <a href="/assets/evelyn-bart-2024-resume.pdf" download>
           <button className="hover">Resume</button>
