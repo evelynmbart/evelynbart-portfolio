@@ -20,14 +20,14 @@ const PROJECTS = [
     src: mappi,
     link: "https://mappi-nyc.vercel.app/",
     description:
-      "Use Mappi to locate your must-have items and find the perfect neighborhood for you and your lifestyle.",
+      "Use Mappi to locate your must-have shops/destinations and find the perfect neighborhood for you and your lifestyle",
   },
   {
     title: "Gridddle",
     src: gridddle,
     link: "https://gridddle.vercel.app/",
     description:
-      "A pixel art themed daily art challenge, with new prompts daily and history of past submissions.",
+      "A pixel art themed daily art challenge, with new prompts daily and history of past submissions",
   },
   // {
   //   title: "ithasbeendays",
@@ -41,14 +41,14 @@ const PROJECTS = [
     src: blog,
     link: "https://evelynmbart.github.io/Blog/",
     description:
-      "My first version (HTML) blog following my progression as a frontend web-developer",
+      "My first HTML based blog following my progression as a frontend web-developer",
   },
   {
     title: "Budgeting App",
     src: budget,
     link: "https://personal-budgeting.levelynup.com/",
     description:
-      "Keep track of your budgets with this easy to use, dynamic expense tracker.",
+      "Keep track of your budgets with this easy to use, dynamic expense tracker",
   },
   {
     title: "Tile Slider",
@@ -61,43 +61,43 @@ const PROJECTS = [
     title: "Jaipur Score Keeper",
     src: jaipur,
     link: "https://jaipur-score.levelynup.com/",
-    description: "Track your Jaipur score easier than ever with this web app.",
+    description: "Track your Jaipur score easier than ever with this web app",
   },
   {
     title: "Farkle",
     src: farkle,
     link: "http://farkle.levelynup.com/",
-    description: "Web app farkle.",
+    description: "Online farkle dice game",
   },
   {
     title: "Recipe Finder",
     src: recipes,
     link: "https://recipe-lookups.levelynup.com/",
-    description: "Search for all types of recipes with this recipe finder app.",
+    description: "Search for all types of recipes with this recipe finder app",
   },
   {
-    title: "Hole-in-One Memory Game",
+    title: "Hole-in-One",
     src: memory,
     link: "https://holeinone.levelynup.com/",
-    description: "Dynamic donut themed memory card game.",
+    description: "Dynamic donut themed memory card game",
   },
   {
     title: "Hangman",
     src: hangman,
     link: "https://hangman.levelynup.com/",
-    description: "Web app hangman game.",
+    description: "Online hangman game",
   },
   {
     title: "Pomodoro",
     src: pomodoro,
     link: "https://pomodoro.levelynup.com/",
-    description: "Tomato themed pomodoro studying timer and todo list.",
+    description: "Tomato themed pomodoro studying timer and todo list",
   },
   {
     title: "Pup Progress",
     src: pupProgress,
     link: "https://pup-progress.levelynup.com/",
-    description: "Chapter/freestyle based dog training app home page.",
+    description: "Chapter/freestyle based dog training app home page",
   },
 ];
 
