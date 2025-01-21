@@ -51,7 +51,7 @@ export function Hero() {
           adaptability, and determination. I have a passion for developing
           intentional and memorable React web apps. Let&apos;s work together!
         </p>
-        <a href="/assets/evelyn-bart-2024-resume.pdf" download>
+        <a href="/assets/Evelyn Bart 2025 Resume.pdf" download>
           <button className="hover">Resume</button>
         </a>
       </div>
