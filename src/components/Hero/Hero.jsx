@@ -48,8 +48,9 @@ export function Hero() {
         <p className="description">
           New to the game and hungry for impactful opportunities. I'm fully
           self-taught and make up for my limited experience with curiosity,
-          adaptability, and determination. I have a passion for developing
-          intentional and memorable React web apps. Let&apos;s work together!
+          adaptability, and determination. My biggest passion is for developing
+          intentional, accessible, and memorable React web apps. Let&apos;s work
+          together!
         </p>
         <a href="/assets/Evelyn Bart 2025 Resume.pdf" download>
           <button className="hover">Resume</button>
