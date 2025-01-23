@@ -4,7 +4,6 @@
 }
 
 html {
-  background-color: var(--background-color);
   scroll-behavior: smooth;
 }
 
