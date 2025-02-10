@@ -1,4 +1,4 @@
-import avatar from "../../../public/assets/avatar02.png";
+import avatar from "../../../public/assets/Adobe Express - file.png";
 import githubDark from "../../../public/assets/github-dark.png";
 import githubLight from "../../../public/assets/github-light.png";
 import linkedinDark from "../../../public/assets/linkedin-dark.png";

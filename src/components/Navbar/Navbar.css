@@ -1,6 +1,6 @@
 .navbar-container {
   display: flex;
-  margin: 10px;
+  margin: 50px 10px 10px 10px;
   justify-content: space-between;
   color: var(--text-color);
   align-items: center;
