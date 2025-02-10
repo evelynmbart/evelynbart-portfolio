@@ -10,10 +10,9 @@ import "./Hero.css";
 
 const images = [
   "/photos-of-me/mtl.png",
-  "/photos-of-me/raleigh.png",
-
+  "/photos-of-me/raleigh.jpg",
   "/photos-of-me/stanford.png",
-  "/photos-of-me/xmas.png",
+  "/photos-of-me/xmas.jpg",
   "/photos-of-me/hhh.png",
   "/photos-of-me/le-mouv.PNG",
 ];
