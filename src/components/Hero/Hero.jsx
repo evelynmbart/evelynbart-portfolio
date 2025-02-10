@@ -43,6 +43,12 @@ export function Hero() {
       <div className="hero-color-mode">
         <div className="carousel-container">
           <img
+            className="colorMode"
+            src={themeIcon}
+            alt="Color mode icon"
+            onClick={toggleTheme}
+          />
+          <img
             className="carousel-image"
             src={images[currentImageIndex]}
             alt={`Evelyn Bart - Image ${currentImageIndex + 1}`}
@@ -65,12 +71,6 @@ export function Hero() {
             ))}
           </div>
         </div>
-        <img
-          className="colorMode"
-          src={themeIcon}
-          alt="Color mode icon"
-          onClick={toggleTheme}
-        />
       </div>
       <div className="hero-info">
         <h1>Evelyn Bart</h1>
