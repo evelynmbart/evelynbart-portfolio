@@ -1,29 +1,70 @@
+import { useState } from "react";
 import githubDark from "../../../public/icons/github-dark.png";
 import githubLight from "../../../public/icons/github-light.png";
 import linkedinDark from "../../../public/icons/linkedin-dark.png";
 import linkedinLight from "../../../public/icons/linkedin-light.png";
 import moon from "../../../public/icons/moon.png";
 import sun from "../../../public/icons/sun.png";
-import avatar from "../../../public/photos-of-me/Adobe Express - file.png";
 import { useTheme } from "../../utils/ThemeContext";
 import "./Hero.css";
 
+const images = [
+  "/photos-of-me/mtl.png",
+  "/photos-of-me/raleigh.png",
+
+  "/photos-of-me/stanford.png",
+  "/photos-of-me/xmas.png",
+  "/photos-of-me/hhh.png",
+  "/photos-of-me/le-mouv.PNG",
+];
+
 export function Hero() {
   const { theme, toggleTheme } = useTheme();
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const themeIcon = theme === "light" ? sun : moon;
   const githubIcon = theme === "light" ? githubLight : githubDark;
   const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
 
+  const nextImage = () => {
+    setCurrentImageIndex((prev) => (prev + 1) % images.length);
+  };
+
+  const prevImage = () => {
+    setCurrentImageIndex((prev) => (prev - 1 + images.length) % images.length);
+  };
+
+  const goToImage = (index) => {
+    setCurrentImageIndex(index);
+  };
+
   return (
     <section id="hero" className="hero-container">
-      {/* <img src="/src/assets/bubble.png" /> */}
       <div className="hero-color-mode">
-        <img
-          className="avatar"
-          src={avatar}
-          alt="profile avatar of Evelyn Bart"
-        />
+        <div className="carousel-container">
+          <img
+            className="carousel-image"
+            src={images[currentImageIndex]}
+            alt={`Evelyn Bart - Image ${currentImageIndex + 1}`}
+          />
+          <button className="carousel-arrow prev" onClick={prevImage}>
+            ←
+          </button>
+          <button className="carousel-arrow next" onClick={nextImage}>
+            →
+          </button>
+          <div className="carousel-dots">
+            {images.map((_, index) => (
+              <div
+                key={index}
+                className={`carousel-dot ${
+                  index === currentImageIndex ? "active" : ""
+                }`}
+                onClick={() => goToImage(index)}
+              />
+            ))}
+          </div>
+        </div>
         <img
           className="colorMode"
           src={themeIcon}
