@@ -1,10 +1,10 @@
-import avatar from "../../../public/assets/Adobe Express - file.png";
-import githubDark from "../../../public/assets/github-dark.png";
-import githubLight from "../../../public/assets/github-light.png";
-import linkedinDark from "../../../public/assets/linkedin-dark.png";
-import linkedinLight from "../../../public/assets/linkedin-light.png";
-import moon from "../../../public/assets/moon.png";
-import sun from "../../../public/assets/sun.png";
+import githubDark from "../../../public/icons/github-dark.png";
+import githubLight from "../../../public/icons/github-light.png";
+import linkedinDark from "../../../public/icons/linkedin-dark.png";
+import linkedinLight from "../../../public/icons/linkedin-light.png";
+import moon from "../../../public/icons/moon.png";
+import sun from "../../../public/icons/sun.png";
+import avatar from "../../../public/photos-of-me/Adobe Express - file.png";
 import { useTheme } from "../../utils/ThemeContext";
 import "./Hero.css";
 

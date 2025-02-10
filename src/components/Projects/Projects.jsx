@@ -1,15 +1,15 @@
-import blog from "../../../public/assets/project-images/blogwoohoo.png";
-import budget from "../../../public/assets/project-images/budget-app.png";
-import farkle from "../../../public/assets/project-images/farkle.png";
-import gridddle from "../../../public/assets/project-images/gridddle.png";
-import hangman from "../../../public/assets/project-images/hangman.png";
-import memory from "../../../public/assets/project-images/hole-in-one.png";
-import jaipur from "../../../public/assets/project-images/jaipur.png";
-import mappi from "../../../public/assets/project-images/mappi.png";
-import pomodoro from "../../../public/assets/project-images/pomodoro.png";
-import pupProgress from "../../../public/assets/project-images/pup-progress.png";
-import recipes from "../../../public/assets/project-images/recipes-app.png";
-import tileSlider from "../../../public/assets/project-images/tile-slider.png";
+import blog from "../../../public/project-images/blogwoohoo.png";
+import budget from "../../../public/project-images/budget-app.png";
+import farkle from "../../../public/project-images/farkle.png";
+import gridddle from "../../../public/project-images/gridddle.png";
+import hangman from "../../../public/project-images/hangman.png";
+import memory from "../../../public/project-images/hole-in-one.png";
+import jaipur from "../../../public/project-images/jaipur.png";
+import mappi from "../../../public/project-images/mappi.png";
+import pomodoro from "../../../public/project-images/pomodoro.png";
+import pupProgress from "../../../public/project-images/pup-progress.png";
+import recipes from "../../../public/project-images/recipes-app.png";
+import tileSlider from "../../../public/project-images/tile-slider.png";
 
 import { ProjectCard } from "../../utils/ProjectCard";
 import "./Projects.css";

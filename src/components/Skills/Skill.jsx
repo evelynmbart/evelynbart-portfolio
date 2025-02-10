@@ -1,5 +1,5 @@
-import checkMarkDark from "../../../public/assets/check-dark.png";
-import checkMarkLight from "../../../public/assets/check-light.png";
+import checkMarkDark from "../../../public/icons/check-dark.png";
+import checkMarkLight from "../../../public/icons/check-light.png";
 import { SkillList } from "../../utils/SkillList";
 import { useTheme } from "../../utils/ThemeContext";
 import "./Skills.css";
