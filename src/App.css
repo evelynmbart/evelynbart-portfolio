@@ -244,16 +244,19 @@ p {
 
 .line1 {
   border-color: var(--squiggle1);
+
   animation: borderMove 20s linear infinite;
 }
 
 .line2 {
   border-color: var(--squiggle2);
+  min-height: 90vh;
   animation: borderMove 25s linear infinite reverse;
 }
 
 .line3 {
   border-color: var(--squiggle3);
+
   animation: borderMove 30s linear infinite;
 }
 
