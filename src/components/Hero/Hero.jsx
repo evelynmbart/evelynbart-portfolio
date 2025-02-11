@@ -15,7 +15,6 @@ const images = [
   "/photos-of-me/stanford.png",
   "/photos-of-me/xmas.jpg",
   "/photos-of-me/hhh.png",
-  "/photos-of-me/le-mouv.PNG",
 ];
 
 export function Hero() {
